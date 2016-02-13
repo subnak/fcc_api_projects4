@@ -2,6 +2,7 @@
 
 var GitHubStrategy = require('passport-github').Strategy;
 var User = require('../models/users');
+var savedSearches=require("../models/savedSearches");
 var configAuth = require('./auth');
 
 module.exports = function (passport) {
